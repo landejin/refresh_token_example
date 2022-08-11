@@ -49,7 +49,7 @@ const afterFetch = (
 
         stopAfterWatch() // cancel watch
 
-        // I need to request the failed api again, So either I can get the execute, Or get Requested method&type&payload&payloadType
+        // I need to request the failed api again, So either I need get the execute, Or get Requested method&type&payload&payloadType
         return execute() // Reissue request, And return the latest data
 
         // or
